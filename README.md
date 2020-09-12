@@ -8,6 +8,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d5b2b1f3514d426e9c93526787c9212d)](https://app.codacy.com/manual/didier-durand/quarkus-for-eclipse-microprofile?utm_source=github.com&utm_medium=referral&utm_content=didier-durand/quarkus-for-eclipse-microprofile&utm_campaign=Badge_Grade_Dashboard) 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile?ref=badge_shield)
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile?ref=badge_large)
+
 **Under Construction**....
 
 This Java project is based on a trival class: the famous "Hello, World!". Its purpose is to use features of the Eclipse Microprofile standard 
