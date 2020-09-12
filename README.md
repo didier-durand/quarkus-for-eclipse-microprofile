@@ -8,8 +8,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d5b2b1f3514d426e9c93526787c9212d)](https://app.codacy.com/manual/didier-durand/quarkus-for-eclipse-microprofile?utm_source=github.com&utm_medium=referral&utm_content=didier-durand/quarkus-for-eclipse-microprofile&utm_campaign=Badge_Grade_Dashboard) 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile?ref=badge_shield)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile?ref=badge_large)
-
 **Under Construction**....
 
 This Java project is based on a trival class: the famous "Hello, World!". Its purpose is to use features of the Eclipse Microprofile standard 
@@ -18,9 +16,12 @@ for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries a
 
 ## DevOps & CI/CD 
 
+
+
 Project is based on Java v11 as v8 will soon be deprecated by Quarkus team. Dependabot monnitor this repo to propose regular Pull Requests to keep our repository up to date with the very fast evolution pace of Quarkus (framework + Eclipse plugin) and other Maven dependencies.
 
 Additionally, it implements various CI/CD tools available to OSS projects (see badges in header): GitHub build, Travis CI build, code quality analysis via Codacy, code coverage of unit tests via CodeCov, license analysis via FOSSA.
+
 
 ```xml
 <dependency>
@@ -29,6 +30,10 @@ Additionally, it implements various CI/CD tools available to OSS projects (see b
     <version>1.7.0.Final</version>
 </dependency>
 ```
+License scan details:
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile?ref=badge_large)
+
 ## Java Microprofile
 
 In various classes extending the basic "Hello, World", we implement the various features defined by 
