@@ -30,7 +30,7 @@ Additionally, it implements various CI/CD tools available to OSS projects (see b
     <version>1.7.0.Final</version>
 </dependency>
 ```
-License scan details:
+License scan details (via FOSSA) :
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile?ref=badge_large)
 
