@@ -1,6 +1,6 @@
 <img src="img/quarkus_logo_vertical_rgb_600px_default.png" height="100"><img src="img/java-logo.png" height="100"> 
 
-# Quarkus to support Eclipse Micropofile standard
+# Quarkus - Support of Eclipse Micropofile standard
 
 [![Build Status](https://travis-ci.org/didier-durand/quarkus-for-eclipse-microprofile.svg?branch=master)](https://travis-ci.org/didier-durand/quarkus-for-eclipse-microprofile) 
 ![Java CI with Maven](https://github.com/didier-durand/quarkus-for-eclipse-microprofile/workflows/Java%20CI%20with%20Maven/badge.svg) 
