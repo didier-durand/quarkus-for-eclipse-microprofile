@@ -1,0 +1,94 @@
+ apiVersion: v1
+ kind: ServiceAccount
+ metadata:
+   annotations:
+     app.quarkus.io/vcs-url: https://github.com/didier-durand/quarkus-baeldung.git
+     app.quarkus.io/build-timestamp: 2020-08-19 - 12:58:55 +0000
+     app.quarkus.io/commit-id: d27875960ce60d58c41e7934d2d9aa740ec9e9a6
+   labels:
+     app.kubernetes.io/name: quarkus-baeldung
+     app.kubernetes.io/version: 0.1.0
+   name: quarkus-baeldung
+ ---
+ apiVersion: v1
+ kind: Service
+ metadata:
+   annotations:
+     app.quarkus.io/vcs-url: https://github.com/didier-durand/quarkus-baeldung.git
+     app.quarkus.io/build-timestamp: 2020-08-19 - 12:58:55 +0000
+     app.quarkus.io/commit-id: d27875960ce60d58c41e7934d2d9aa740ec9e9a6
+   labels:
+     app.kubernetes.io/name: quarkus-baeldung
+     app.kubernetes.io/version: 0.1.0
+   name: quarkus-baeldung
+ spec:
+   ports:
+   - name: http
+     port: 8080
+     targetPort: 8080
+   selector:
+     app.kubernetes.io/name: quarkus-baeldung
+     app.kubernetes.io/version: 0.1.0
+   type: ClusterIP
+ ---
+ apiVersion: apps/v1
+ kind: Deployment
+ metadata:
+   annotations:
+     app.quarkus.io/vcs-url: https://github.com/didier-durand/quarkus-baeldung.git
+    app.quarkus.io/build-timestamp: 2020-08-19 - 12:58:55 +0000
+    app.quarkus.io/commit-id: d27875960ce60d58c41e7934d2d9aa740ec9e9a6
+  labels:
+    app.kubernetes.io/name: quarkus-baeldung
+    app.kubernetes.io/version: 0.1.0
+  name: quarkus-baeldung
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: quarkus-baeldung
+      app.kubernetes.io/version: 0.1.0
+  template:
+    metadata:
+      annotations:
+        app.quarkus.io/vcs-url: https://github.com/didier-durand/quarkus-baeldung.git
+        app.quarkus.io/build-timestamp: 2020-08-19 - 12:58:55 +0000
+        app.quarkus.io/commit-id: d27875960ce60d58c41e7934d2d9aa740ec9e9a6
+      labels:
+        app.kubernetes.io/name: quarkus-baeldung
+        app.kubernetes.io/version: 0.1.0
+    spec:
+      containers:
+      - env:
+        - name: KUBERNETES_NAMESPACE
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.namespace
+        image: runner/quarkus-baeldung:0.1.0
+        imagePullPolicy: Always
+        livenessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /health/live
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 0
+          periodSeconds: 30
+          successThreshold: 1
+          timeoutSeconds: 10
+        name: quarkus-baeldung
+        ports:
+        - containerPort: 8080
+          name: http
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /health/ready
+            port: 8080
+            scheme: HTTP
+          initialDelaySeconds: 0
+          periodSeconds: 30
+          successThreshold: 1
+          timeoutSeconds: 10
+      serviceAccount: quarkus-baeldung
