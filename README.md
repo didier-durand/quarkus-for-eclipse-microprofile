@@ -1,8 +1,12 @@
 <img src="img/quarkus_logo_vertical_rgb_600px_default.png" height="100"><img src="img/java-logo.png" height="100"> 
 
-# quarkus-baeldung
+# Quarkus to support Eclipse Micropofile standard
 
-[![Build Status](https://travis-ci.org/didier-durand/quarkus-baeldung.svg?branch=master)](https://travis-ci.org/didier-durand/quarkus-baeldung) ![Java CI with Maven](https://github.com/didier-durand/quarkus-baeldung/workflows/Java%20CI%20with%20Maven/badge.svg) [![codecov](https://codecov.io/gh/didier-durand/quarkus-baeldung/branch/master/graph/badge.svg)](https://codecov.io/gh/didier-durand/quarkus-baeldung) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d5b2b1f3514d426e9c93526787c9212d)](https://app.codacy.com/manual/didier-durand/quarkus-baeldung?utm_source=github.com&utm_medium=referral&utm_content=didier-durand/quarkus-baeldung&utm_campaign=Badge_Grade_Dashboard) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-baeldung.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-baeldung?ref=badge_shield)
+[![Build Status](https://travis-ci.org/didier-durand/quarkus-for-eclipse-microprofile.svg?branch=master)](https://travis-ci.org/didier-durand/quarkus-for-eclipse-microprofile) 
+![Java CI with Maven](https://github.com/didier-durand/quarkus-for-eclipse-microprofile/workflows/Java%20CI%20with%20Maven/badge.svg) 
+[![codecov](https://codecov.io/gh/didier-durand/quarkus-for-eclipse-microprofile/branch/master/graph/badge.svg)](https://codecov.io/gh/didier-durand/quarkus-for-eclipse-microprofile) 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d5b2b1f3514d426e9c93526787c9212d)](https://app.codacy.com/manual/didier-durand/quarkus-for-eclipse-microprofile?utm_source=github.com&utm_medium=referral&utm_content=didier-durand/quarkus-for-eclipse-microprofile&utm_campaign=Badge_Grade_Dashboard) 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile?ref=badge_shield)
 
 **Under Construction**....
 
@@ -23,7 +27,6 @@ Additionally, it implements various CI/CD tools available to OSS projects (see b
     <version>1.7.0.Final</version>
 </dependency>
 ```
-
 ## Java Microprofile
 
 In various classes extending the basic "Hello, World", we implement the various features defined by 
