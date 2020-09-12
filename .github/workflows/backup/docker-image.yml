@@ -1,0 +1,25 @@
+name: Docker Quarkus Builder
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    
+    - name: Project checkout
+      uses: actions/checkout@v2
+      
+    - name: Pull Quarkus native image
+      run: docker pull quay.io/quarkus/ubi-quarkus-native-image:20.1.0-java11
+    
+    - name: Build the Quarkus container image
+      #run: docker build . --file Dockerfile --tag didier-durand/quarkus-baeldung-native:$(date +%s)
+      run: docker build . --file Dockerfile --network=host
