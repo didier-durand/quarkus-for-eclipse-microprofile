@@ -1,4 +1,4 @@
-name: Java Quarkus Builder
+name: Maven Build
 
 on:
 
