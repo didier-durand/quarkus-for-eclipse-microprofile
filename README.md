@@ -6,7 +6,6 @@
 ![Github Maven Build](https://github.com/didier-durand/quarkus-for-eclipse-microprofile/workflows/Maven%20Build/badge.svg) 
 [![codecov](https://codecov.io/gh/didier-durand/quarkus-for-eclipse-microprofile/branch/master/graph/badge.svg)](https://codecov.io/gh/didier-durand/quarkus-for-eclipse-microprofile) 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d5b2b1f3514d426e9c93526787c9212d)](https://app.codacy.com/manual/didier-durand/quarkus-for-eclipse-microprofile?utm_source=github.com&utm_medium=referral&utm_content=didier-durand/quarkus-for-eclipse-microprofile&utm_campaign=Badge_Grade_Dashboard) 
- <img src="https://flat.badgen.net/dependabot/didier-durand/quarkus-for-eclipse-microprofile?icon=dependabot" />
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdidier-durand%2Fquarkus-for-eclipse-microprofile?ref=badge_shield)
 
 **Under Construction**....
