@@ -11,7 +11,7 @@
 		<java.version>11</java.version>
 		<microprofile.version>4.0.1</microprofile.version>
 		<quarkus.version>1.13.2.Final</quarkus.version>
-		<compiler-plugin.version>3.8.1</compiler-plugin.version>
+		<compiler-plugin.version>3.9.0</compiler-plugin.version>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<surefire-plugin.version>2.22.2</surefire-plugin.version>
